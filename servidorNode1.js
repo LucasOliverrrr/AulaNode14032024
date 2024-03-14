@@ -1,6 +1,6 @@
 const http = require('http')
 
-http.createServer((requesicao, resposta)=>{
+http.createServer((requisicao, resposta)=>{
       resposta.writeHead(200, {'Content-Type': 'text/plain'})
       resposta.write('Ola mundooooooooooooo \n')
       resposta.end()
