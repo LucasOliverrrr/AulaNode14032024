@@ -4,7 +4,7 @@ const host = "127.0.0.1"
 
 
 const servidor = http.createServer((requisicao, resposta)=>{
-    resposta.writeHead(200, {"Content-type":"text/html"})
+    resposta.writeHead(200, {"Content-Type":"text/html"})
     
     if(requisicao.url == "/"){
         resposta.write("<h1> Seja bem vindo! </h1>")
